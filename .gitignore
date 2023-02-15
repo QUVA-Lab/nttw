@@ -1,0 +1,16 @@
+*.egg-info
+
+*.png
+*.jpg
+*.log
+
+**/__pycache__
+**/scratch.py
+**/data/*
+log/*
+wandb/
+results/
+
+# Slurm files
+slurm*
+*/slurm*
