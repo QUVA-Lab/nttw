@@ -1,6 +1,8 @@
-# Research virus spread and contact tracing
+# AISTATS 2023 'No time to waste: practical statistical contact tracing with few low-bit messages'
 
-This repo contains accompanying code for the AISTATS submission, 'no time to waste'.
+This repo contains accompanying code for the AISTATS 2023 poster:
+'No time to waste: practical statistical contact tracing with few low-bit messages.'
+
 
 Note: we are working on a new version, which already runs faster and compares additional inference methods. Please contact romijndersrob@gmail.com for more information.
 
@@ -109,7 +111,7 @@ $ wandb agent "$USERNAME/nttw-nttw_experiments/$SWEEP"
 
 ## Attribution
 
-Any questions may go to 'romijndersrob [at] gmail [dot] com'.
+Any questions may go to 'romijndersrob@gmail.com'.
 
 Please use the following for citations:
 
@@ -118,10 +120,10 @@ R. Romijnders, Y.M. Asano, C. Louizos, and M. Welling, 'No time to waste: practi
 ```
 
 ```
-@article{2023notimetowaste,
+@inproceedings{2023notimetowaste,
   title={No time to waste: practical statistical contact tracing with few low-bit messages},
-  author={Romijnders, Rob and Asano, Yuki and Louizos, Christos and Welling, Max},
-  journal={Accepted for AISTATS},
+  author={Romijnders, Rob and Asano, Yuki M. and Louizos, Christos and Welling, Max},
+  journal={AISTATS 2023},
   year={2023},
 }
 ```
